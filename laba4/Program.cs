@@ -12,6 +12,7 @@ while(input < 1 || input > 6)
     input = Convert.ToInt16(Console.ReadLine());
 }
 int A = 0;
+int B = 0;
 switch (input)
 {
     case 1:
@@ -25,6 +26,7 @@ switch (input)
     case 4:
         return;
     case 5:
+        Console.WriteLine(A * B);
         return;
     case 6:
         return;
