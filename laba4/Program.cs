@@ -30,6 +30,7 @@ switch (input)
         Console.WriteLine(A-B);
         return;
     case 5:
+        Console.WriteLine(A * B);
         return;
     case 6:
         Console.WriteLine(A / B);
