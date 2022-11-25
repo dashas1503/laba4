@@ -11,9 +11,12 @@ while(input < 1 || input > 6)
     Console.WriteLine("Неверный ввод. Попробуйте ещё раз.");
     input = Convert.ToInt16(Console.ReadLine());
 }
+int A = 0;
 switch (input)
 {
     case 1:
+        Console.WriteLine("Введите А:");
+        A = Convert.ToInt16(Console.ReadLine());
         return;
     case 2:
         return;
