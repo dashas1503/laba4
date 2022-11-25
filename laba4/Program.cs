@@ -24,6 +24,7 @@ switch (input)
         B = Convert.ToInt16(Console.ReadLine());
         return;
     case 3:
+        Console.WriteLine(A + B);
         return;
     case 4:
         return;
