@@ -27,6 +27,7 @@ switch (input)
         Console.WriteLine(A + B);
         return;
     case 4:
+        Console.WriteLine(A-B);
         return;
     case 5:
         return;
