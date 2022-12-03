@@ -36,3 +36,5 @@ switch (input)
         Console.WriteLine(A / B);
         return;
 }
+
+int C = 0;
